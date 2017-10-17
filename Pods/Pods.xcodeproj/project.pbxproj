@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031390F5360DFE03CF83D9E4623F34C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		1D51D14E04168FC3828DA8A273208393 /* Pods-ojisangame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE88A198E50E994380FC07E59D011E8 /* Pods-ojisangame-dummy.m */; };
+		265F9A80649390BC717DCE9EB6108E4E /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = B54D6D2DC94C1AD34435AAF7688CC651 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D005C47A2B8643C98669DED3B359727 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		464AD5CBF7AA583723B934FDA29801E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5801FF845B0BD89D4F1A62B0D62E63D0 /* Pods-ojisangameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3D9E015B1CB88A42E50828630C8986 /* Pods-ojisangameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688F590958F4E7DC6AC46098DD84C2A9 /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CA62438C43ABF96C01849F2DDF78B2 /* SwiftSpinner-dummy.m */; };
+		6D6D14E474CC1859E15F89D639DFEE61 /* Pods-ojisangameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9679B1F92DE6928FA7FC15F601C9988 /* Pods-ojisangameUITests-dummy.m */; };
+		70CF0456EC17C0A88D3A7D14CEE191DD /* Pods-ojisangame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DE482A42823A2D93777084F13E9367 /* Pods-ojisangame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D63616167B0453DB1D781AAC54A2B50 /* Pods-ojisangameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4A6501D02DA05FF0C05055407B0C3F /* Pods-ojisangameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DF78C9B0F42352F689349BD055B1322 /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FF0E9AE8E279A97B8A0B60E2C8DED8 /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A72431A428CA0FA5B29B94F5195E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E09644551B69E6A149B8BD151C08C56D /* Pods-ojisangameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8445BD7EEE7FCB3808ED1BAC5DDA7DC /* Pods-ojisangameTests-dummy.m */; };
+		E84AE9D5F76FF06433C5D2514A994AC8 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB720842853199FC95D876715F4C9EF7 /* SwiftSpinner.swift */; };
+		F9141835D8191E5F549631AD90D0D761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		401AAD3E7102069D2E9E42AD72D9437D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D9027F112E36C4E4C43BB4D9DEF61E;
+			remoteInfo = SwiftSpinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F178E769764C4B9B9DAE1809F452B6 /* Pods-ojisangameTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ojisangameTests-frameworks.sh"; sourceTree = "<group>"; };
+		0E2F18270B50D78D567DF4629DCFFB46 /* Pods-ojisangame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ojisangame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1497B489586346431E2FF9044DBD8078 /* Pods-ojisangameUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ojisangameUITests-resources.sh"; sourceTree = "<group>"; };
+		14E65913C363BC430C6A8EC6A8153A5A /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		1DE88A198E50E994380FC07E59D011E8 /* Pods-ojisangame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ojisangame-dummy.m"; sourceTree = "<group>"; };
+		21D37206CE1EE08BDB94B39C867C488A /* Pods-ojisangameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ojisangameTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22DE482A42823A2D93777084F13E9367 /* Pods-ojisangame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ojisangame-umbrella.h"; sourceTree = "<group>"; };
+		2373E8CC7ED8898C959301E2EA7FDE57 /* Pods-ojisangame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ojisangame.debug.xcconfig"; sourceTree = "<group>"; };
+		24BFD6F3F9AD74854B6B0858D47579F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0F96A7E0C5EE0BB59C8092AFE179FC /* Pods_ojisangameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ojisangameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B24528D1B05AF91C9575ED9797863F0 /* Pods-ojisangameTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ojisangameTests-resources.sh"; sourceTree = "<group>"; };
+		3E2717EE766C5187444903D14D264AFE /* Pods-ojisangame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ojisangame.release.xcconfig"; sourceTree = "<group>"; };
+		3E48CD999FAB3E202F45065536ED2BE0 /* Pods-ojisangameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ojisangameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45EA33A5C2DEEB441D9C835948B95094 /* Pods_ojisangameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ojisangameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5121E7EED4C342ECAFE5E9FBFECA04E5 /* Pods-ojisangameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ojisangameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		595AB8CFE87DB0887ED833143850D79A /* Pods_ojisangame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ojisangame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A26DBBF63EEC87A41B3E655C0A71614 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF6707E9F484E87019AD7BA6355676D /* Pods-ojisangameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ojisangameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B8D46E8DAB7620E87F64ABC5CEFEEB7 /* Pods-ojisangameUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ojisangameUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5F92302E04E700530D6320A755EF8743 /* Pods-ojisangame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ojisangame.modulemap"; sourceTree = "<group>"; };
+		6A3D9E015B1CB88A42E50828630C8986 /* Pods-ojisangameUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ojisangameUITests-umbrella.h"; sourceTree = "<group>"; };
+		6AABA0B9E39D4EFB01D80B8C67082158 /* Pods-ojisangameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ojisangameTests.modulemap"; sourceTree = "<group>"; };
+		770F050D638D79375AD320AB3F505134 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		7D64435B5A383CEBEAEACEDB573A7FF1 /* Pods-ojisangameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ojisangameUITests.modulemap"; sourceTree = "<group>"; };
+		7E4A6501D02DA05FF0C05055407B0C3F /* Pods-ojisangameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ojisangameTests-umbrella.h"; sourceTree = "<group>"; };
+		80F54AFA0F88745C89111D87D3AB8D92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8930C7FAD6ECF39E57A7E3E9503FF8D3 /* Pods-ojisangameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ojisangameTests.release.xcconfig"; sourceTree = "<group>"; };
+		91C14F342397F55ED99DBF80D34F4743 /* Pods-ojisangame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ojisangame-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0FF0E9AE8E279A97B8A0B60E2C8DED8 /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		A5FBB174A33D92D93E53B857188CF37B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54D6D2DC94C1AD34435AAF7688CC651 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1FE8A8DDEA03F3FB925AF26558FD197 /* Pods-ojisangameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ojisangameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6CCC65F6D040A7E9EF85094DD9D4E73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F65B39513144FC5AB9CD6A9F510B13 /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
+		D0990E6BD61260A7AD6C3AA2D3A161FB /* Pods-ojisangameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ojisangameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0CA62438C43ABF96C01849F2DDF78B2 /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		D13BB49EAEA218DA649CC936702D0EDE /* Pods-ojisangame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ojisangame-resources.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9679B1F92DE6928FA7FC15F601C9988 /* Pods-ojisangameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ojisangameUITests-dummy.m"; sourceTree = "<group>"; };
+		E082832BEC24516B7FE6DA54CE00D16B /* Pods-ojisangame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ojisangame-frameworks.sh"; sourceTree = "<group>"; };
+		E69DA1A4DC34FB8A22D0E477DFC57F19 /* Pods-ojisangameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ojisangameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8445BD7EEE7FCB3808ED1BAC5DDA7DC /* Pods-ojisangameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ojisangameTests-dummy.m"; sourceTree = "<group>"; };
+		FB720842853199FC95D876715F4C9EF7 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231101F80B4024F5DB5CD34EF5054302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464AD5CBF7AA583723B934FDA29801E0 /* Foundation.framework in Frameworks */,
+				031390F5360DFE03CF83D9E4623F34C2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D824427D3F0B666D2C30B0E437C9FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D005C47A2B8643C98669DED3B359727 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E76F135AB1D5510D42536C358AFF939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A72431A428CA0FA5B29B94F5195E97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DF6327C09DA505F7A4A532AB3D10A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9141835D8191E5F549631AD90D0D761 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA803D590E4AC81174B5A0EE7BBEE94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C096F8BEC9DC075D506A48E4263A738 /* Pods-ojisangame */,
+				448ED71923DA71D852410CC765247284 /* Pods-ojisangameTests */,
+				4A9574829743A5170B3E18E820191137 /* Pods-ojisangameUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		448ED71923DA71D852410CC765247284 /* Pods-ojisangameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5FBB174A33D92D93E53B857188CF37B /* Info.plist */,
+				6AABA0B9E39D4EFB01D80B8C67082158 /* Pods-ojisangameTests.modulemap */,
+				E69DA1A4DC34FB8A22D0E477DFC57F19 /* Pods-ojisangameTests-acknowledgements.markdown */,
+				21D37206CE1EE08BDB94B39C867C488A /* Pods-ojisangameTests-acknowledgements.plist */,
+				F8445BD7EEE7FCB3808ED1BAC5DDA7DC /* Pods-ojisangameTests-dummy.m */,
+				02F178E769764C4B9B9DAE1809F452B6 /* Pods-ojisangameTests-frameworks.sh */,
+				2B24528D1B05AF91C9575ED9797863F0 /* Pods-ojisangameTests-resources.sh */,
+				7E4A6501D02DA05FF0C05055407B0C3F /* Pods-ojisangameTests-umbrella.h */,
+				5AF6707E9F484E87019AD7BA6355676D /* Pods-ojisangameTests.debug.xcconfig */,
+				8930C7FAD6ECF39E57A7E3E9503FF8D3 /* Pods-ojisangameTests.release.xcconfig */,
+			);
+			name = "Pods-ojisangameTests";
+			path = "Target Support Files/Pods-ojisangameTests";
+			sourceTree = "<group>";
+		};
+		4A9574829743A5170B3E18E820191137 /* Pods-ojisangameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6CCC65F6D040A7E9EF85094DD9D4E73 /* Info.plist */,
+				7D64435B5A383CEBEAEACEDB573A7FF1 /* Pods-ojisangameUITests.modulemap */,
+				5121E7EED4C342ECAFE5E9FBFECA04E5 /* Pods-ojisangameUITests-acknowledgements.markdown */,
+				D0990E6BD61260A7AD6C3AA2D3A161FB /* Pods-ojisangameUITests-acknowledgements.plist */,
+				D9679B1F92DE6928FA7FC15F601C9988 /* Pods-ojisangameUITests-dummy.m */,
+				5B8D46E8DAB7620E87F64ABC5CEFEEB7 /* Pods-ojisangameUITests-frameworks.sh */,
+				1497B489586346431E2FF9044DBD8078 /* Pods-ojisangameUITests-resources.sh */,
+				6A3D9E015B1CB88A42E50828630C8986 /* Pods-ojisangameUITests-umbrella.h */,
+				C1FE8A8DDEA03F3FB925AF26558FD197 /* Pods-ojisangameUITests.debug.xcconfig */,
+				3E48CD999FAB3E202F45065536ED2BE0 /* Pods-ojisangameUITests.release.xcconfig */,
+			);
+			name = "Pods-ojisangameUITests";
+			path = "Target Support Files/Pods-ojisangameUITests";
+			sourceTree = "<group>";
+		};
+		4C096F8BEC9DC075D506A48E4263A738 /* Pods-ojisangame */ = {
+			isa = PBXGroup;
+			children = (
+				80F54AFA0F88745C89111D87D3AB8D92 /* Info.plist */,
+				5F92302E04E700530D6320A755EF8743 /* Pods-ojisangame.modulemap */,
+				0E2F18270B50D78D567DF4629DCFFB46 /* Pods-ojisangame-acknowledgements.markdown */,
+				91C14F342397F55ED99DBF80D34F4743 /* Pods-ojisangame-acknowledgements.plist */,
+				1DE88A198E50E994380FC07E59D011E8 /* Pods-ojisangame-dummy.m */,
+				E082832BEC24516B7FE6DA54CE00D16B /* Pods-ojisangame-frameworks.sh */,
+				D13BB49EAEA218DA649CC936702D0EDE /* Pods-ojisangame-resources.sh */,
+				22DE482A42823A2D93777084F13E9367 /* Pods-ojisangame-umbrella.h */,
+				2373E8CC7ED8898C959301E2EA7FDE57 /* Pods-ojisangame.debug.xcconfig */,
+				3E2717EE766C5187444903D14D264AFE /* Pods-ojisangame.release.xcconfig */,
+			);
+			name = "Pods-ojisangame";
+			path = "Target Support Files/Pods-ojisangame";
+			sourceTree = "<group>";
+		};
+		4DD715C3D463865130174229A1C59020 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EF33E5116FE45ACA4CD6348AD54CD70 /* SwiftSpinner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4DD715C3D463865130174229A1C59020 /* Pods */,
+				CC27775BE1EA3103F8E44C814B401A12 /* Products */,
+				2BA803D590E4AC81174B5A0EE7BBEE94 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EF33E5116FE45ACA4CD6348AD54CD70 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				B54D6D2DC94C1AD34435AAF7688CC651 /* SwiftSpinner.h */,
+				FB720842853199FC95D876715F4C9EF7 /* SwiftSpinner.swift */,
+				9E8346534EAAEB8899A3BEEE43DB8BE7 /* Support Files */,
+			);
+			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
+		9E8346534EAAEB8899A3BEEE43DB8BE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24BFD6F3F9AD74854B6B0858D47579F4 /* Info.plist */,
+				14E65913C363BC430C6A8EC6A8153A5A /* SwiftSpinner.modulemap */,
+				C7F65B39513144FC5AB9CD6A9F510B13 /* SwiftSpinner.xcconfig */,
+				D0CA62438C43ABF96C01849F2DDF78B2 /* SwiftSpinner-dummy.m */,
+				770F050D638D79375AD320AB3F505134 /* SwiftSpinner-prefix.pch */,
+				A0FF0E9AE8E279A97B8A0B60E2C8DED8 /* SwiftSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		CC27775BE1EA3103F8E44C814B401A12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				595AB8CFE87DB0887ED833143850D79A /* Pods_ojisangame.framework */,
+				45EA33A5C2DEEB441D9C835948B95094 /* Pods_ojisangameTests.framework */,
+				2A0F96A7E0C5EE0BB59C8092AFE179FC /* Pods_ojisangameUITests.framework */,
+				5A26DBBF63EEC87A41B3E655C0A71614 /* SwiftSpinner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		155C3E221E5B6072DBBBD64C3D6048E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5801FF845B0BD89D4F1A62B0D62E63D0 /* Pods-ojisangameUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEDAF51B4EA640B0560E4CA1D570565 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CF0456EC17C0A88D3A7D14CEE191DD /* Pods-ojisangame-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE178E1DDC50BD3443C09E97C4C35D54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF78C9B0F42352F689349BD055B1322 /* SwiftSpinner-umbrella.h in Headers */,
+				265F9A80649390BC717DCE9EB6108E4E /* SwiftSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF97E61AE5F880F6BF07CF74875444D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D63616167B0453DB1D781AAC54A2B50 /* Pods-ojisangameTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E6D445BF2439084BE63729B085E7D3A /* Pods-ojisangame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8234896CC3D18A3BA313299ABFD603B /* Build configuration list for PBXNativeTarget "Pods-ojisangame" */;
+			buildPhases = (
+				A957A5C3E8BD4329175E0976AF073B62 /* Sources */,
+				7E76F135AB1D5510D42536C358AFF939 /* Frameworks */,
+				AEEDAF51B4EA640B0560E4CA1D570565 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71AD4B850B0C7230FE871F9509BF571 /* PBXTargetDependency */,
+			);
+			name = "Pods-ojisangame";
+			productName = "Pods-ojisangame";
+			productReference = 595AB8CFE87DB0887ED833143850D79A /* Pods_ojisangame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68D9027F112E36C4E4C43BB4D9DEF61E /* SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409EEC2AF3E98A81A88FF76C8B5F8DD7 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildPhases = (
+				6FD4BD9552C2C0AD5201135B5170AA57 /* Sources */,
+				231101F80B4024F5DB5CD34EF5054302 /* Frameworks */,
+				BE178E1DDC50BD3443C09E97C4C35D54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSpinner;
+			productName = SwiftSpinner;
+			productReference = 5A26DBBF63EEC87A41B3E655C0A71614 /* SwiftSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF16A76A19CDACD4FBBAC9151C2207AF /* Pods-ojisangameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3796010C59824A461A58628A468B46D0 /* Build configuration list for PBXNativeTarget "Pods-ojisangameUITests" */;
+			buildPhases = (
+				A2A92A35002CA6B619EB017E09289B3A /* Sources */,
+				4D824427D3F0B666D2C30B0E437C9FAE /* Frameworks */,
+				155C3E221E5B6072DBBBD64C3D6048E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ojisangameUITests";
+			productName = "Pods-ojisangameUITests";
+			productReference = 2A0F96A7E0C5EE0BB59C8092AFE179FC /* Pods_ojisangameUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1A397226A2DE38A30B7B66A93873760 /* Pods-ojisangameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75B080CF9F8696E4E044E36FACCE5EB /* Build configuration list for PBXNativeTarget "Pods-ojisangameTests" */;
+			buildPhases = (
+				8BE681C0906D090D9A599914E243FB1F /* Sources */,
+				C9DF6327C09DA505F7A4A532AB3D10A2 /* Frameworks */,
+				CEF97E61AE5F880F6BF07CF74875444D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ojisangameTests";
+			productName = "Pods-ojisangameTests";
+			productReference = 45EA33A5C2DEEB441D9C835948B95094 /* Pods_ojisangameTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CC27775BE1EA3103F8E44C814B401A12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E6D445BF2439084BE63729B085E7D3A /* Pods-ojisangame */,
+				D1A397226A2DE38A30B7B66A93873760 /* Pods-ojisangameTests */,
+				CF16A76A19CDACD4FBBAC9151C2207AF /* Pods-ojisangameUITests */,
+				68D9027F112E36C4E4C43BB4D9DEF61E /* SwiftSpinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FD4BD9552C2C0AD5201135B5170AA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688F590958F4E7DC6AC46098DD84C2A9 /* SwiftSpinner-dummy.m in Sources */,
+				E84AE9D5F76FF06433C5D2514A994AC8 /* SwiftSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE681C0906D090D9A599914E243FB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09644551B69E6A149B8BD151C08C56D /* Pods-ojisangameTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A92A35002CA6B619EB017E09289B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6D14E474CC1859E15F89D639DFEE61 /* Pods-ojisangameUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A957A5C3E8BD4329175E0976AF073B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D51D14E04168FC3828DA8A273208393 /* Pods-ojisangame-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F71AD4B850B0C7230FE871F9509BF571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = 68D9027F112E36C4E4C43BB4D9DEF61E /* SwiftSpinner */;
+			targetProxy = 401AAD3E7102069D2E9E42AD72D9437D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D3BB15A8818087DDC7CE2E7E43BC9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1FE8A8DDEA03F3FB925AF26558FD197 /* Pods-ojisangameUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ojisangameUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ojisangameUITests/Pods-ojisangameUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ojisangameUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2D1B01D7886883889D1217F0EA4C800B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF6707E9F484E87019AD7BA6355676D /* Pods-ojisangameTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ojisangameTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ojisangameTests/Pods-ojisangameTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ojisangameTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		402BF1D13FA31709009B125054D55C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F65B39513144FC5AB9CD6A9F510B13 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5C1898DD2ED6A3817B401C0D9A03E2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2717EE766C5187444903D14D264AFE /* Pods-ojisangame.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ojisangame/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ojisangame/Pods-ojisangame.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ojisangame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72CA3B9ECAE326E2947DC3A683DF75B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F65B39513144FC5AB9CD6A9F510B13 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B071F77CD5E851DE3D425395C486182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2373E8CC7ED8898C959301E2EA7FDE57 /* Pods-ojisangame.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ojisangame/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ojisangame/Pods-ojisangame.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ojisangame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D3B0DE0D2F64E9D85A2863EB79FCAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E48CD999FAB3E202F45065536ED2BE0 /* Pods-ojisangameUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ojisangameUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ojisangameUITests/Pods-ojisangameUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ojisangameUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC3F2AE30407370EF6ACA27DF3F0F310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8930C7FAD6ECF39E57A7E3E9503FF8D3 /* Pods-ojisangameTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ojisangameTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ojisangameTests/Pods-ojisangameTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ojisangameTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3796010C59824A461A58628A468B46D0 /* Build configuration list for PBXNativeTarget "Pods-ojisangameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3BB15A8818087DDC7CE2E7E43BC9E4 /* Debug */,
+				9D3B0DE0D2F64E9D85A2863EB79FCAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409EEC2AF3E98A81A88FF76C8B5F8DD7 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CA3B9ECAE326E2947DC3A683DF75B6 /* Debug */,
+				402BF1D13FA31709009B125054D55C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75B080CF9F8696E4E044E36FACCE5EB /* Build configuration list for PBXNativeTarget "Pods-ojisangameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1B01D7886883889D1217F0EA4C800B /* Debug */,
+				CC3F2AE30407370EF6ACA27DF3F0F310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8234896CC3D18A3BA313299ABFD603B /* Build configuration list for PBXNativeTarget "Pods-ojisangame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B071F77CD5E851DE3D425395C486182 /* Debug */,
+				5C1898DD2ED6A3817B401C0D9A03E2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

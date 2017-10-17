@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270B03061F910D640052DC15 /* howtoplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 270B03051F910D390052DC15 /* howtoplay.png */; };
+		270B03071F910D640052DC15 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 270B03021F9100C10052DC15 /* settings.png */; };
 		27114E3B1F8B49A200728DFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27114E3A1F8B49A200728DFC /* AppDelegate.swift */; };
 		27114E3D1F8B49A200728DFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27114E3C1F8B49A200728DFC /* ViewController.swift */; };
 		27114E401F8B49A200728DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27114E3E1F8B49A200728DFC /* Main.storyboard */; };
@@ -14,6 +16,23 @@
 		27114E451F8B49A200728DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27114E431F8B49A200728DFC /* LaunchScreen.storyboard */; };
 		27114E501F8B49A200728DFC /* ojisangameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27114E4F1F8B49A200728DFC /* ojisangameTests.swift */; };
 		27114E5B1F8B49A200728DFC /* ojisangameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27114E5A1F8B49A200728DFC /* ojisangameUITests.swift */; };
+		27114E691F8B4A0900728DFC /* sixteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27114E681F8B4A0900728DFC /* sixteenViewController.swift */; };
+		27114E6B1F8B599F00728DFC /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27114E6A1F8B599F00728DFC /* settingViewController.swift */; };
+		27114E731F8B5C2500728DFC /* 44.png in Resources */ = {isa = PBXBuildFile; fileRef = 27114E6C1F8B59F200728DFC /* 44.png */; };
+		27114E741F8B5C2500728DFC /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 27114E6D1F8B5A0A00728DFC /* 33.png */; };
+		27114E751F8B5C2500728DFC /* satoken.png in Resources */ = {isa = PBXBuildFile; fileRef = 27114E6F1F8B5A4D00728DFC /* satoken.png */; };
+		27114E761F8B5C2500728DFC /* komei.png in Resources */ = {isa = PBXBuildFile; fileRef = 27114E701F8B5A4D00728DFC /* komei.png */; };
+		27114E771F8B5C2500728DFC /* miyamoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 27114E711F8B5A4D00728DFC /* miyamoto.png */; };
+		27114E781F8B5C2500728DFC /* 999.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27114E721F8B5A4D00728DFC /* 999.jpg */; };
+		27A9862E1F8B7F28004E2D8C /* YEET.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27A9862D1F8B7F1B004E2D8C /* YEET.mp3 */; };
+		27A986301F8B7FCF004E2D8C /* collectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9862F1F8B7FCF004E2D8C /* collectionViewController.swift */; };
+		27A986331F8B80D7004E2D8C /* photoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A986311F8B80D7004E2D8C /* photoCollectionViewCell.swift */; };
+		27A986341F8B80D7004E2D8C /* photoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A986321F8B80D7004E2D8C /* photoCollectionViewCell.xib */; };
+		27FF83461F8E1F8300E86E71 /* ookubo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FF83451F8E1F6900E86E71 /* ookubo.png */; };
+		27FF83481F8E449900E86E71 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF83471F8E449900E86E71 /* startViewController.swift */; };
+		32F50F2816C47FD9F65BAD32 /* Pods_ojisangame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D6C37EE38DC1159987538 /* Pods_ojisangame.framework */; };
+		36603F74F4BA171D56CD7DE5 /* Pods_ojisangameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAED5ABFC080EF335749663 /* Pods_ojisangameUITests.framework */; };
+		7F4C0D014F690213065AF7AC /* Pods_ojisangameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2888CC9FFAB3CABCE2E7C123 /* Pods_ojisangameTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		238C6794759F6778C3791074 /* Pods-ojisangame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ojisangame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ojisangame/Pods-ojisangame.debug.xcconfig"; sourceTree = "<group>"; };
+		270B03021F9100C10052DC15 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		270B03051F910D390052DC15 /* howtoplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = howtoplay.png; path = ../../../../Desktop/howtoplay.png; sourceTree = "<group>"; };
 		27114E371F8B49A200728DFC /* ojisangame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ojisangame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27114E3A1F8B49A200728DFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27114E3C1F8B49A200728DFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,28 @@
 		27114E561F8B49A200728DFC /* ojisangameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ojisangameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27114E5A1F8B49A200728DFC /* ojisangameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ojisangameUITests.swift; sourceTree = "<group>"; };
 		27114E5C1F8B49A200728DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27114E681F8B4A0900728DFC /* sixteenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixteenViewController.swift; sourceTree = "<group>"; };
+		27114E6A1F8B599F00728DFC /* settingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		27114E6C1F8B59F200728DFC /* 44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44.png; sourceTree = "<group>"; };
+		27114E6D1F8B5A0A00728DFC /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		27114E6F1F8B5A4D00728DFC /* satoken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satoken.png; sourceTree = "<group>"; };
+		27114E701F8B5A4D00728DFC /* komei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = komei.png; sourceTree = "<group>"; };
+		27114E711F8B5A4D00728DFC /* miyamoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miyamoto.png; sourceTree = "<group>"; };
+		27114E721F8B5A4D00728DFC /* 999.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 999.jpg; sourceTree = "<group>"; };
+		27A9862D1F8B7F1B004E2D8C /* YEET.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YEET.mp3; sourceTree = "<group>"; };
+		27A9862F1F8B7FCF004E2D8C /* collectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewController.swift; sourceTree = "<group>"; };
+		27A986311F8B80D7004E2D8C /* photoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoCollectionViewCell.swift; sourceTree = "<group>"; };
+		27A986321F8B80D7004E2D8C /* photoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = photoCollectionViewCell.xib; sourceTree = "<group>"; };
+		27FF83451F8E1F6900E86E71 /* ookubo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ookubo.png; sourceTree = "<group>"; };
+		27FF83471F8E449900E86E71 /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
+		2888CC9FFAB3CABCE2E7C123 /* Pods_ojisangameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ojisangameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE8798EB09484634CD8CCB9 /* Pods-ojisangameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ojisangameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ojisangameTests/Pods-ojisangameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE7DF391BB5A44D9FD20D8A /* Pods-ojisangameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ojisangameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ojisangameUITests/Pods-ojisangameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C510860AE2FC1CEB09E468EB /* Pods-ojisangameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ojisangameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ojisangameUITests/Pods-ojisangameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D99D6C37EE38DC1159987538 /* Pods_ojisangame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ojisangame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAED5ABFC080EF335749663 /* Pods_ojisangameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ojisangameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A9887002617ED45FB327E5 /* Pods-ojisangame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ojisangame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ojisangame/Pods-ojisangame.release.xcconfig"; sourceTree = "<group>"; };
+		E276DECB03870A5DA31B43BA /* Pods-ojisangameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ojisangameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ojisangameTests/Pods-ojisangameTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F50F2816C47FD9F65BAD32 /* Pods_ojisangame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4C0D014F690213065AF7AC /* Pods_ojisangameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +114,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36603F74F4BA171D56CD7DE5 /* Pods_ojisangameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CC275C379A1E024D7F09ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D99D6C37EE38DC1159987538 /* Pods_ojisangame.framework */,
+				2888CC9FFAB3CABCE2E7C123 /* Pods_ojisangameTests.framework */,
+				DAAED5ABFC080EF335749663 /* Pods_ojisangameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		269AD2A87C9EBFCDBFC596D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				238C6794759F6778C3791074 /* Pods-ojisangame.debug.xcconfig */,
+				E0A9887002617ED45FB327E5 /* Pods-ojisangame.release.xcconfig */,
+				2BE8798EB09484634CD8CCB9 /* Pods-ojisangameTests.debug.xcconfig */,
+				E276DECB03870A5DA31B43BA /* Pods-ojisangameTests.release.xcconfig */,
+				C510860AE2FC1CEB09E468EB /* Pods-ojisangameUITests.debug.xcconfig */,
+				BCE7DF391BB5A44D9FD20D8A /* Pods-ojisangameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		27114E2E1F8B49A200728DFC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +151,8 @@
 				27114E4E1F8B49A200728DFC /* ojisangameTests */,
 				27114E591F8B49A200728DFC /* ojisangameUITests */,
 				27114E381F8B49A200728DFC /* Products */,
+				269AD2A87C9EBFCDBFC596D3 /* Pods */,
+				1CC275C379A1E024D7F09ABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +169,18 @@
 		27114E391F8B49A200728DFC /* ojisangame */ = {
 			isa = PBXGroup;
 			children = (
+				27114E3E1F8B49A200728DFC /* Main.storyboard */,
+				27FF83471F8E449900E86E71 /* startViewController.swift */,
+				270B03051F910D390052DC15 /* howtoplay.png */,
+				270B03021F9100C10052DC15 /* settings.png */,
 				27114E3A1F8B49A200728DFC /* AppDelegate.swift */,
 				27114E3C1F8B49A200728DFC /* ViewController.swift */,
-				27114E3E1F8B49A200728DFC /* Main.storyboard */,
+				27114E681F8B4A0900728DFC /* sixteenViewController.swift */,
+				27A986311F8B80D7004E2D8C /* photoCollectionViewCell.swift */,
+				27A986321F8B80D7004E2D8C /* photoCollectionViewCell.xib */,
+				27A9862F1F8B7FCF004E2D8C /* collectionViewController.swift */,
+				27114E6A1F8B599F00728DFC /* settingViewController.swift */,
+				27114E6E1F8B5A4D00728DFC /* ojisangame_data */,
 				27114E411F8B49A200728DFC /* Assets.xcassets */,
 				27114E431F8B49A200728DFC /* LaunchScreen.storyboard */,
 				27114E461F8B49A200728DFC /* Info.plist */,
@@ -125,6 +206,21 @@
 			path = ojisangameUITests;
 			sourceTree = "<group>";
 		};
+		27114E6E1F8B5A4D00728DFC /* ojisangame_data */ = {
+			isa = PBXGroup;
+			children = (
+				27A9862D1F8B7F1B004E2D8C /* YEET.mp3 */,
+				27FF83451F8E1F6900E86E71 /* ookubo.png */,
+				27114E6C1F8B59F200728DFC /* 44.png */,
+				27114E6D1F8B5A0A00728DFC /* 33.png */,
+				27114E6F1F8B5A4D00728DFC /* satoken.png */,
+				27114E701F8B5A4D00728DFC /* komei.png */,
+				27114E711F8B5A4D00728DFC /* miyamoto.png */,
+				27114E721F8B5A4D00728DFC /* 999.jpg */,
+			);
+			path = ojisangame_data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27114E5F1F8B49A200728DFC /* Build configuration list for PBXNativeTarget "ojisangame" */;
 			buildPhases = (
+				EB69C484FF4729AB3B498994 /* [CP] Check Pods Manifest.lock */,
 				27114E331F8B49A200728DFC /* Sources */,
 				27114E341F8B49A200728DFC /* Frameworks */,
 				27114E351F8B49A200728DFC /* Resources */,
+				233CF2A1CB1B8F454B783BAC /* [CP] Embed Pods Frameworks */,
+				9DEAAD9B7CBD320BAEE09C59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27114E621F8B49A200728DFC /* Build configuration list for PBXNativeTarget "ojisangameTests" */;
 			buildPhases = (
+				68C313CB347FEC2E36F8CE47 /* [CP] Check Pods Manifest.lock */,
 				27114E471F8B49A200728DFC /* Sources */,
 				27114E481F8B49A200728DFC /* Frameworks */,
 				27114E491F8B49A200728DFC /* Resources */,
+				6ABAB082FD474463447F6C41 /* [CP] Embed Pods Frameworks */,
+				12D46E690456A53FED70F18A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27114E651F8B49A200728DFC /* Build configuration list for PBXNativeTarget "ojisangameUITests" */;
 			buildPhases = (
+				DB7A0C57372B8649FD261CE5 /* [CP] Check Pods Manifest.lock */,
 				27114E521F8B49A200728DFC /* Sources */,
 				27114E531F8B49A200728DFC /* Frameworks */,
 				27114E541F8B49A200728DFC /* Resources */,
+				447F68ED82F2D7CD556502FC /* [CP] Embed Pods Frameworks */,
+				A07B9EFEA3C4C48FDF10BA1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,7 +294,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = TwitterAnimation;
+				ORGANIZATIONNAME = "Tatsuya Fukushima";
 				TargetAttributes = {
 					27114E361F8B49A200728DFC = {
 						CreatedOnToolsVersion = 9.0;
@@ -232,6 +337,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B03061F910D640052DC15 /* howtoplay.png in Resources */,
+				270B03071F910D640052DC15 /* settings.png in Resources */,
+				27FF83461F8E1F8300E86E71 /* ookubo.png in Resources */,
+				27A9862E1F8B7F28004E2D8C /* YEET.mp3 in Resources */,
+				27114E731F8B5C2500728DFC /* 44.png in Resources */,
+				27114E741F8B5C2500728DFC /* 33.png in Resources */,
+				27A986341F8B80D7004E2D8C /* photoCollectionViewCell.xib in Resources */,
+				27114E751F8B5C2500728DFC /* satoken.png in Resources */,
+				27114E761F8B5C2500728DFC /* komei.png in Resources */,
+				27114E771F8B5C2500728DFC /* miyamoto.png in Resources */,
+				27114E781F8B5C2500728DFC /* 999.jpg in Resources */,
 				27114E451F8B49A200728DFC /* LaunchScreen.storyboard in Resources */,
 				27114E421F8B49A200728DFC /* Assets.xcassets in Resources */,
 				27114E401F8B49A200728DFC /* Main.storyboard in Resources */,
@@ -254,13 +370,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12D46E690456A53FED70F18A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ojisangameTests/Pods-ojisangameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		233CF2A1CB1B8F454B783BAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ojisangame/Pods-ojisangame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ojisangame/Pods-ojisangame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		447F68ED82F2D7CD556502FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ojisangameUITests/Pods-ojisangameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68C313CB347FEC2E36F8CE47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ojisangameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ABAB082FD474463447F6C41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ojisangameTests/Pods-ojisangameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DEAAD9B7CBD320BAEE09C59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ojisangame/Pods-ojisangame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07B9EFEA3C4C48FDF10BA1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ojisangameUITests/Pods-ojisangameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7A0C57372B8649FD261CE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ojisangameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB69C484FF4729AB3B498994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ojisangame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27114E331F8B49A200728DFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				27114E3D1F8B49A200728DFC /* ViewController.swift in Sources */,
+				27FF83481F8E449900E86E71 /* startViewController.swift in Sources */,
+				27A986331F8B80D7004E2D8C /* photoCollectionViewCell.swift in Sources */,
+				27A986301F8B7FCF004E2D8C /* collectionViewController.swift in Sources */,
 				27114E3B1F8B49A200728DFC /* AppDelegate.swift in Sources */,
+				27114E691F8B4A0900728DFC /* sixteenViewController.swift in Sources */,
+				27114E6B1F8B599F00728DFC /* settingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +695,12 @@
 		};
 		27114E601F8B49A200728DFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238C6794759F6778C3791074 /* Pods-ojisangame.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98G7MS2742;
+				DEVELOPMENT_TEAM = 4ZLV67V2DX;
 				INFOPLIST_FILE = ojisangame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tatsuya.ojisangame;
@@ -439,10 +712,12 @@
 		};
 		27114E611F8B49A200728DFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A9887002617ED45FB327E5 /* Pods-ojisangame.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98G7MS2742;
+				DEVELOPMENT_TEAM = 4ZLV67V2DX;
 				INFOPLIST_FILE = ojisangame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tatsuya.ojisangame;
@@ -454,8 +729,9 @@
 		};
 		27114E631F8B49A200728DFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE8798EB09484634CD8CCB9 /* Pods-ojisangameTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98G7MS2742;
@@ -471,8 +747,9 @@
 		};
 		27114E641F8B49A200728DFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E276DECB03870A5DA31B43BA /* Pods-ojisangameTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98G7MS2742;
@@ -488,8 +765,9 @@
 		};
 		27114E661F8B49A200728DFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C510860AE2FC1CEB09E468EB /* Pods-ojisangameUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98G7MS2742;
 				INFOPLIST_FILE = ojisangameUITests/Info.plist;
@@ -504,8 +782,9 @@
 		};
 		27114E671F8B49A200728DFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE7DF391BB5A44D9FD20D8A /* Pods-ojisangameUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98G7MS2742;
 				INFOPLIST_FILE = ojisangameUITests/Info.plist;

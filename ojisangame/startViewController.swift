@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftSpinner
 
 class startViewController: UIViewController {
 
@@ -20,6 +21,19 @@ class startViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func to33(){
+        
+        performSegue(withIdentifier: "to33", sender: nil)
+        
+    }
+    
+    @IBAction func to44(){
+        
+        performSegue(withIdentifier: "to44", sender: nil)
+        
+    }
+
     
 
     /*

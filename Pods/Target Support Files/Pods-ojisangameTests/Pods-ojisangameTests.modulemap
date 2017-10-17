@@ -1,0 +1,6 @@
+framework module Pods_ojisangameTests {
+  umbrella header "Pods-ojisangameTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
