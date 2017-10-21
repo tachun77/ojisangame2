@@ -85,21 +85,25 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
         if savedata.object(forKey: "photodata") != nil {
             
             dataphotoArray = savedata.object(forKey: "photodata") as! [Data]
+            print(dataphotoArray)
             
             
             for i in 0...(dataphotoArray.count - 1){
                 
                 photoArray.append(UIImage(data:dataphotoArray[i])!)
-                
+                print(i)
             }
+            print("nilじゃない")
         }else{
 //
 //            photonameArray = ["satoken","komei","miyamoto","ookubo"]
 //            savedata.set(photonameArray,forKey: "photoname")
+            print("nilです")
         }
         
         sethaikei()
         answernumber = Int(arc4random_uniform(8))+1
+        print("photoは"+String(photoArray.count)+"コ")
         print("ハズレの数字は"+String(answernumber))
     }
     
@@ -305,6 +309,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate{
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func change(){
+        
+        sethaikei()
+    }
 }
 
 

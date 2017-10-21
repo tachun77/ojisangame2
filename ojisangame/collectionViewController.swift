@@ -27,6 +27,9 @@ class collectionViewController: UIViewController , UICollectionViewDelegate,UICo
     
         // Do any additional setup after loading the view.
         
+        let xib : UINib = UINib(nibName:"photoCollectionViewCell",bundle:nil)
+        collectionView.register(xib, forCellWithReuseIdentifier: "photocell")
+        
         if savedata.object(forKey:"photodata") != nil{
             
             dataphotoArray = savedata.object(forKey:"photodata") as! [Data]
@@ -37,14 +40,13 @@ class collectionViewController: UIViewController , UICollectionViewDelegate,UICo
             
         }
         
-        let xib : UINib = UINib(nibName:"photoCollectionViewCell",bundle:nil)
-        collectionView.register(xib, forCellWithReuseIdentifier: "photocell")
 
+            print("nilじゃない")
         }else{
             
             //初回だけ元々入ってる画像をUIImageからData化している
             
-            photoArray = [UIImage(named:"satoken")!,UIImage(named:"komei")!,UIImage(named:"miyamoto")!,UIImage(named:"ookubo")!]
+            photoArray = [UIImage(named:"satoken.png")!,UIImage(named:"komei.png")!,UIImage(named:"miyamoto.png")!,UIImage(named:"ookubo.png")!]
             
            dataphotoArray  = photoArray.map { (image) -> Data in
                 (UIImagePNGRepresentation(image))!
@@ -52,11 +54,14 @@ class collectionViewController: UIViewController , UICollectionViewDelegate,UICo
             
 //            savedata.set(dataphotoArray,forKey:"photodata")
 //            savedata.synchronize()
+            
+            print("nilです")
         }
         
         print("viewDidLoad")
     }
     
+
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
         
         let width : CGFloat = collectionView.bounds.width  / 2
@@ -131,21 +136,41 @@ class collectionViewController: UIViewController , UICollectionViewDelegate,UICo
         }
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(true)
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(true)
+//    
+//        
+//        let dataphotoArray : [Data]  = photoArray.map { (image) -> Data in
+//            (UIImagePNGRepresentation(image))!
+//        }
+//        
+//        savedata.set(dataphotoArray,forKey:"photodata")
+//        
+//        print("画像は現在" + String(dataphotoArray.count)+"個")
+//        print("viewWillDisappear")
+//        
+//    }
+    
+
+    
+    @IBAction func save(){
         
-        let dataphotoArray : [Data]  = photoArray.map { (image) -> Data in
-            (UIImagePNGRepresentation(image))!
+        SwiftSpinner.show(delay:0,title:"写真保存中",animated:true)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            SwiftSpinner.hide()
         }
         
-        savedata.set(dataphotoArray,forKey:"photodata")
+       
+        let dataphotoArray : [Data]  = self.photoArray.map { (image) -> Data in
+            (UIImagePNGRepresentation(image))!
         
+            }
+            savedata.set(dataphotoArray,forKey:"photodata")
         print("画像は現在" + String(dataphotoArray.count)+"個")
-        print("viewWillDisappear")
         
         
     }
-
     /*
     // MARK: - Navigation
 

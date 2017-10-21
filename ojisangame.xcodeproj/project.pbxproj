@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270A01561F989F0500FA75E1 /* animationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270A01551F989F0500FA75E1 /* animationViewController.swift */; };
+		270A01591F99FD0E00FA75E1 /* animationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270A01571F99FD0E00FA75E1 /* animationTableViewCell.swift */; };
+		270A015A1F99FD0E00FA75E1 /* animationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 270A01581F99FD0E00FA75E1 /* animationTableViewCell.xib */; };
 		270B03061F910D640052DC15 /* howtoplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 270B03051F910D390052DC15 /* howtoplay.png */; };
 		270B03071F910D640052DC15 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 270B03021F9100C10052DC15 /* settings.png */; };
 		27114E3B1F8B49A200728DFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27114E3A1F8B49A200728DFC /* AppDelegate.swift */; };
@@ -54,6 +57,11 @@
 
 /* Begin PBXFileReference section */
 		238C6794759F6778C3791074 /* Pods-ojisangame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ojisangame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ojisangame/Pods-ojisangame.debug.xcconfig"; sourceTree = "<group>"; };
+		270A01541F98401E00FA75E1 /* howtoplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = howtoplay.png; path = ../../../../../Desktop/howtoplay.png; sourceTree = "<group>"; };
+		270A01551F989F0500FA75E1 /* animationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = animationViewController.swift; path = /Users/Tatsuya/Documents/iOSapp/ojisangame/ojisangame/animationViewController.swift; sourceTree = "<absolute>"; };
+		270A01571F99FD0E00FA75E1 /* animationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationTableViewCell.swift; sourceTree = "<group>"; };
+		270A01581F99FD0E00FA75E1 /* animationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = animationTableViewCell.xib; sourceTree = "<group>"; };
+		270A015B1F99FDF200FA75E1 /* howtoplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = howtoplay.png; path = ../../../../../Desktop/howtoplay.png; sourceTree = "<group>"; };
 		270B03021F9100C10052DC15 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		270B03051F910D390052DC15 /* howtoplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = howtoplay.png; path = ../../../../Desktop/howtoplay.png; sourceTree = "<group>"; };
 		27114E371F8B49A200728DFC /* ojisangame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ojisangame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,14 +177,16 @@
 		27114E391F8B49A200728DFC /* ojisangame */ = {
 			isa = PBXGroup;
 			children = (
+				270A01551F989F0500FA75E1 /* animationViewController.swift */,
 				27114E3E1F8B49A200728DFC /* Main.storyboard */,
 				27FF83471F8E449900E86E71 /* startViewController.swift */,
 				270B03051F910D390052DC15 /* howtoplay.png */,
-				270B03021F9100C10052DC15 /* settings.png */,
 				27114E3A1F8B49A200728DFC /* AppDelegate.swift */,
 				27114E3C1F8B49A200728DFC /* ViewController.swift */,
 				27114E681F8B4A0900728DFC /* sixteenViewController.swift */,
 				27A986311F8B80D7004E2D8C /* photoCollectionViewCell.swift */,
+				270A01571F99FD0E00FA75E1 /* animationTableViewCell.swift */,
+				270A01581F99FD0E00FA75E1 /* animationTableViewCell.xib */,
 				27A986321F8B80D7004E2D8C /* photoCollectionViewCell.xib */,
 				27A9862F1F8B7FCF004E2D8C /* collectionViewController.swift */,
 				27114E6A1F8B599F00728DFC /* settingViewController.swift */,
@@ -210,6 +220,9 @@
 			isa = PBXGroup;
 			children = (
 				27A9862D1F8B7F1B004E2D8C /* YEET.mp3 */,
+				270A01541F98401E00FA75E1 /* howtoplay.png */,
+				270B03021F9100C10052DC15 /* settings.png */,
+				270A015B1F99FDF200FA75E1 /* howtoplay.png */,
 				27FF83451F8E1F6900E86E71 /* ookubo.png */,
 				27114E6C1F8B59F200728DFC /* 44.png */,
 				27114E6D1F8B5A0A00728DFC /* 33.png */,
@@ -342,6 +355,7 @@
 				27FF83461F8E1F8300E86E71 /* ookubo.png in Resources */,
 				27A9862E1F8B7F28004E2D8C /* YEET.mp3 in Resources */,
 				27114E731F8B5C2500728DFC /* 44.png in Resources */,
+				270A015A1F99FD0E00FA75E1 /* animationTableViewCell.xib in Resources */,
 				27114E741F8B5C2500728DFC /* 33.png in Resources */,
 				27A986341F8B80D7004E2D8C /* photoCollectionViewCell.xib in Resources */,
 				27114E751F8B5C2500728DFC /* satoken.png in Resources */,
@@ -527,11 +541,13 @@
 			files = (
 				27114E3D1F8B49A200728DFC /* ViewController.swift in Sources */,
 				27FF83481F8E449900E86E71 /* startViewController.swift in Sources */,
+				270A01591F99FD0E00FA75E1 /* animationTableViewCell.swift in Sources */,
 				27A986331F8B80D7004E2D8C /* photoCollectionViewCell.swift in Sources */,
 				27A986301F8B7FCF004E2D8C /* collectionViewController.swift in Sources */,
 				27114E3B1F8B49A200728DFC /* AppDelegate.swift in Sources */,
 				27114E691F8B4A0900728DFC /* sixteenViewController.swift in Sources */,
 				27114E6B1F8B599F00728DFC /* settingViewController.swift in Sources */,
+				270A01561F989F0500FA75E1 /* animationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

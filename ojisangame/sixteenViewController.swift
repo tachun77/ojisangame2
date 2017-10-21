@@ -371,6 +371,10 @@ class sixteenViewController: UIViewController, AVAudioPlayerDelegate{
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func change(){
+        
+        sethaikei()
+    }
     
 }
 

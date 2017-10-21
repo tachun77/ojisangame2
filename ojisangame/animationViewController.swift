@@ -1,36 +1,24 @@
 //
-//  settingViewController.swift
-//  ojisangame
+//  animationViewController.swift
+//  
 //
-//  Created by 福島達也 on 2017/10/09.
-//  Copyright © 2017年 Tatsuya Fukushima. All rights reserved.
+//  Created by 福島達也 on 2017/10/19.
 //
 
 import UIKit
-import SwiftSpinner
 
-
-class settingViewController: UIViewController {
+class animationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-
     }
-
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func back(){
-        self.dismiss(animated: true, completion: nil)
-        
-    }
-    
-
     
 
     /*

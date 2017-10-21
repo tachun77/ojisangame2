@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/Tatsuya/Documents/iOSapp/ojisangame/ojisangame/animationViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:ojisangame.xcodeproj">
    </FileRef>
    <FileRef
